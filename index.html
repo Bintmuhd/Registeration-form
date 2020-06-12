@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Reg form</title>
+</head>
+<body>
+    <!--Theme Buttons-->
+
+    <!--Welcome Page-->
+
+    <div id="welcome">
+        
+        <header>
+            <div class="theme"> Change theme:
+                <button class="red" onclick="redbutton()"></button>
+                <button class="green" onclick="greenbutton()"></button>
+                <button class="blue" onclick="bluebutton()"></button>
+            </div>
+        <h1>WELCOME</h1>
+        <h2>ON BOARD</h2>
+        </header>
+        <footer>
+            <button class="wlcbtn">SIGN UP</button>
+            <h5>Have an account already? Cool!<br/> 
+            <a href="#login" id="loglink">Click here</a> to login
+            </h5>
+        </footer>
+    </div>
+    <!--Sign up Page-->
+    <div id="signup">
+        <header>
+        <h1>SIGN UP</h1>
+        <h2>TO CONTINUE</h2>
+        </header>
+        <form class="form">
+            <input type="text" class="signuser" placeholder="Username" required><br/>
+            <input type="email" class="signemail" placeholder="Email" required><br/>
+            <input type="password" class="signpw" placeholder="Password" required><br/>
+            <button class="signbtn">SIGN UP</button>
+        </form>
+
+    </div>
+    <!--Log in Page-->
+    <div id="login">
+        <header>
+            <h1>LOG IN</h1>
+            <h2>TO CONTINUE</h2>
+        </header>
+        <form class="form">
+            <input type="text" class="loguser" placeholder="Username" required><br/>
+            <input type="password" class="logpw" placeholder="Password" required><br/>
+            <a href="#forgot" class="forgotlink">Forgot password?</a><br/>
+            
+            <button class="logbtn">LOG IN</button>
+        </form>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

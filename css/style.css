@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #1d2951;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+}   
+
+
+/* Change theme Buttons */
+.theme {
+    margin-top: -40px;
+    margin-right: -200px;
+    float: right;
+    font-size: 15px;
+}
+
+.red {
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    background-color: #f50057;
+    box-shadow: 3px 4px #b30240 ;
+}
+
+.red:hover{
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    background-color: #f50057;
+    box-shadow: 3px 4px #b30240 ;
+    opacity: 0.2;
+}
+
+.green {
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    background-color: #00bfa6;
+    box-shadow: 3px 4px #03a38e ;
+}
+
+.green:hover {
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    background-color: #00bfa6;
+    box-shadow: 3px 4px #03a38e;
+    opacity: 0.2;
+}
+
+.blue {
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    background-color: #536df5;
+    box-shadow: 3px 4px #3852d8 ;
+}
+
+.blue:hover {
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    background-color: #536df5;
+    box-shadow: 3px 4px #3852d8 ;
+    opacity: 0.2;
+}
+
+/* Main Containers */
+/* Welcome Continer */
+#welcome {
+    height: auto;
+    width: 1000px;
+    background-image: url(/images/welcome.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+#welcomegreen {
+    height: auto;
+    width: 1000px;
+    background-image: url(/images/Welcome\ green.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+#welcomeblue {
+height: auto;
+    width: 1000px;
+    background-image: url(/images/Welcome\ blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+/* Sign Up container */
+#signup {
+    height: auto;
+    width: 1000px;
+    background-image: url(/images/Sgn\ Up.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15vw;
+    display: none;
+}
+
+#signupgreen {
+    height: auto;
+        width: 1000px;
+        background-image: url(/images/Signup\ green.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 15vw;
+        display: none;
+    }
+
+#signupblue {
+    height: auto;
+    width: 1000px;
+    background-image: url(/images/Signup\ blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15vw;
+    display: none;
+        }
+
+/* Login Container */
+#login {
+    height: auto;
+    width: 1000px;
+    background-image: url(/images/Login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 16vw 6vh;
+    display: none;
+} 
+
+#logingreen {
+    height: auto;
+        width: 1000px;
+        background-image: url(/images/login\ green.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 16vw 6vh;
+        display: none;
+    }
+
+#loginblue {
+height: auto;
+width: 1000px;
+background-image: url(/images/login\ blue.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 16vw 6vh;
+display: none;
+}
+
+/*Header*/
+header{
+    line-height: 0.52;
+    font-size: 30px;
+    color: #1d2951;
+}
+
+/* Main Button */
+button {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background: white;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-top: 25px;
+    box-shadow:0 0 8px 10px #1d2951 ;
+    font-weight: 300;
+    color: #1d2951;
+}
+
+button:hover {
+    background-color: #fc516e;
+    height: 55px;
+    width: 205px;
+    color: white;
+
+}
+
+
+/* Others */
+h5{
+    
+    font-size: 15px;
+}
+
+footer {
+    margin-top: 455px;
+}
+
+/* Form Pages */
+form {
+    line-height: 2.5;
+    margin-top: 80px;
+}
+
+input {
+    height: 80px;
+    width: 600px;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 3px solid  #1d2951;
+    outline: none;
+    font-size: 20px;
+}
+
+/* Placeolder */
+:placeholder-shown{
+    color: #1d2951;
+}
+
+::placeholder {
+    color: #1d2951;
+}
+
+/* Links*/
+ #loglink {
+     color: #f50057;
+     text-decoration: none;
+ }
+
+ .forgotlink {
+     float: right;
+     margin-right: 100px;
+     color: #f50057;
+     font-weight: bolder;
+ }
+
+ #loglink:hover{
+     font-size: 25px;
+     border-bottom: 5px solid #b30240;
+ }
